@@ -1,0 +1,39 @@
+.sliding-component {
+  position: fixed;
+  top: 0;
+  left: -50%;
+  width: 50%;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease-in-out;
+}
+
+.sliding-component.open {
+  left: 0;
+}
+
+.surajbody {
+  position: relative;
+}
+
+.maincontainer {
+  position: absolute;
+  top: 130px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(146, 130, 130, 20%);
+}
+
+.slidecontainer {
+  width: 0%;
+  height: 100vh;
+  background-color: pink;
+  transition: width 3s;
+}
+
+.slidecontainer {
+  width: 30%;
+}
